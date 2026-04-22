@@ -1,0 +1,11 @@
+TIMESTAMP | username | dataset_name | RESULT
+2026-04-21T08:14:32Z | jsmith | Project_Cancer_Genes | SUCCESS
+2026-04-21T08:31:07Z | a.torres | Project_Cancer_Genes | DENIED_EXPIRED
+2026-04-21T09:02:55Z | cholbrook | Project_Cancer_Genes | DENIED_UNAUTHORIZED
+2026-04-21T09:18:43Z | l.nguyen | Project_Cancer_Genes | SUCCESS
+2026-04-21T10:05:11Z | vpatel | Project_Cancer_Genes | DENIED_UNAUTHORIZED
+2026-04-21T10:44:28Z | jsmith | Climate_Change_Impact | SUCCESS
+2026-04-21T11:22:09Z | mgarcia | Climate_Change_Impact | DENIED_EXPIRED
+2026-04-21T12:01:33Z | c.williams | Climate_Change_Impact | SUCCESS
+2026-04-21T13:15:50Z | l.nguyen | Climate_Change_Impact | DENIED_NO_ACCESS
+2026-04-21T14:30:22Z | vpatel | Climate_Change_Impact | DENIED_UNAUTHORIZED

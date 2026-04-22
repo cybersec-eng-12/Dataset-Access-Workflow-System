@@ -1,0 +1,50 @@
+users:
+  - username: jsmith
+    email: jsmith@example.com
+    datasets:
+      - Project_Cancer_Genes
+      - Climate_Change_Impact
+    account_status: active
+    expiration_date: 2027-01-01
+
+  - username: a.torres
+    email: a.torres@example.com
+    datasets:
+      - Project_Cancer_Genes
+    account_status: expired
+    expiration_date: 2026-02-17
+
+  - username: cjames
+    email: cjames@example.com
+    datasets:
+      - Project_Cancer_Genes
+    account_status: revoked
+    expiration_date: 2026-04-15
+
+  - username: l.nguyen
+    email: l.nguyen@example.com
+    datasets:
+      - Project_Cancer_Genes
+    account_status: active
+    expiration_date: 2027-08-30
+
+  - username: c.williams
+    email: c.williams@example.com
+    datasets:
+      - Climate_Change_Impact
+    account_status: active
+    expiration_date: 2026-11-30
+
+  - username: vpatel
+    email: vpatel@example.com
+    datasets:
+      - Climate_Change_Impact
+    account_status: revoked
+    expiration_date: 2026-04-11
+
+  - username: mgarcia
+    email: mgarcia@example.com
+    datasets:
+      - Climate_Change_Impact
+    account_status: expired
+    expiration_date: 2026-03-01

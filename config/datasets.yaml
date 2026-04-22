@@ -1,0 +1,21 @@
+datasets:
+  - name: Project_Cancer_Genes
+    access_tier: restricted
+    status: active
+    release_date: 2026-01-15
+    authorized_users:
+      - jsmith
+      - a.torres
+      - cjames
+      - l.nguyen
+    expiration_date: 2027-12-31
+  - name: Climate_Change_Impact
+    access_tier: open
+    status: active
+    release_date: 2025-05-20
+    authorized_users:
+      - jsmith
+      - c.williams
+      - vpatel
+      - mgarcia
+    expiration_date: 2028-06-30

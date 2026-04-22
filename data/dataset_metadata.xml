@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datasets>
+
+    <dataset>
+        <name>Project_Cancer_Genes</name>
+        <description>
+            A restricted genomic dataset containing annotated cancer-associated gene sequences
+            and mutation profiles sourced from clinical research trials. Intended for use by
+            authorized researchers in oncology and bioinformatics.
+        </description>
+        <release_data>2026-01-15</release_data>
+        <file_format>CSV, FASTA</file_format>
+        <size>14.7 GB</size>
+        <access_procedure>
+            Access is restricted. Authorized users must submit a data access request form
+            through the research portal and receive approval from the data governance board.
+            Credentials are provisioned within 5 business days of approval. All access is
+            logged and audited quarterly.
+        </access_procedure>
+        <contact_email>data-helpdesk@example.com</contact_email>
+    </dataset>
+    <dataset>
+        <name>Project_Climate_Data</name>
+        <description>
+            An open-access dataset aggregating global climate metrics including temperature
+            anomalies, sea level measurements, and carbon emission indices from 2000 to 2025.
+        </description>
+        <release_data>2025-05-20</release_data>
+        <file_format>NetCDF, CSV, JSON</file_format>
+        <size>50 GB</size>
+        <access_procedure>
+            This dataset is publicly available. Users can download files directly from the
+            open data portal without registration. A citation of the dataset is required in
+            any published work. API access is available for bulk queries.
+        </access_procedure>
+        <contact_email>openclimatedata@example.com</contact_email>
+    </dataset>
+
+</datasets>
