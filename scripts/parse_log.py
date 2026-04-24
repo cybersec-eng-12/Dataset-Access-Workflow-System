@@ -27,4 +27,4 @@ with open(Path(__file__).parent.parent / 'reports' / 'access_summary.csv', 'w', 
     writer.writeheader()
     writer.writerows(access_log_entries)
 
-print(f"Parsed {len(access_log_entries)} log entries and saved to access_summary.csv")
+print(f"Parsed {len(access_log_entries)} log entries and saved to reports/access_summary.csv")

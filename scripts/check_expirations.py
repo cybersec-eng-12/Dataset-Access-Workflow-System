@@ -14,9 +14,8 @@ with open(Path(__file__).parent.parent / 'logs' / 'expiration_status.log', 'a') 
     log_file.write(f"Expiration Check - {datetime.datetime.now().date()}\n")
     for user in user_accounts['users']:
         if user['expiration_date'] < datetime.datetime.now().date():
-            print(f"{user['username']} is EXPIRED/REVOKED")
             log_file.write(f"{datetime.datetime.now()}: {user['username']} is EXPIRED/REVOKED\n")
         else:
             days_until_expiration = (user['expiration_date'] - datetime.datetime.now().date()).days
-            print(f"{user['username']} is ACTIVE, expires in {days_until_expiration} days")
             log_file.write(f"{datetime.datetime.now()}: {user['username']} is ACTIVE, expires in {days_until_expiration} days\n")
+print("Expiration check completed. Status logged to logs/expiration_status.log")

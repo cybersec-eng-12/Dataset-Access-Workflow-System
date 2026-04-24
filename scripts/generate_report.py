@@ -14,7 +14,6 @@ for dataset in root.findall('dataset'):
     name = dataset.find('name').text
     description = dataset.find('description').text
     access_procedure = dataset.find('access_procedure').text
-    print(f"Dataset: {name}\nDescription: {description}\nAccess Procedure: {access_procedure}\n")
     dataset_metadata_info.append({
         'name': name,
         'description': description,
@@ -96,4 +95,4 @@ html_content += f"""
 # Write the HTML string out to reports/dataset_access_report.html
 with open(Path(__file__).parent.parent / 'reports' / 'dataset_access_report.html', 'w') as html_file:
     html_file.write(html_content)
-print("HTML report generated and saved to dataset_access_report.html")
+print("Report generated and saved to reports/dataset_access_report.html\n")
